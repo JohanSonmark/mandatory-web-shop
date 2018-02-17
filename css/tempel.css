@@ -1,0 +1,80 @@
+*{
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body{
+    margin-top: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    width: 100%;
+    height: auto;
+}
+
+.navbar{
+    border-radius: 0px;
+    margin-bottom: 0px;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+
+a:link{
+    color: grey;
+}
+
+a:active{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+
+
+#productPC ul{
+    border: 2px solid black;
+    padding: 5px;
+}
+
+#productPC ul li{
+    margin: auto;
+}
+
+
+@media (min-width: 992px) {
+
+    #productPC{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    #productPC ul{
+        width: 300px;
+        height: 325px;
+        padding: 0;
+        border: 2px solid black;
+        margin: 20px 5px 0 5px;
+
+    }
+
+    #productPC ul li{
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+        padding-left: 5px;
+    }
+
+    img{
+        max-width: 250px;
+        max-height: 200px;
+    }
+
+    #productPC button{
+
+    }
+
+}
