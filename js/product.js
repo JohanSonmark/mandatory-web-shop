@@ -9,25 +9,25 @@ let getDataPC = [
     {
         name: "Dator 1",
         price: "11.111 kr",
-        description: "1 av 5 Sjärnor",
+        description: "Den är en Apple och den är dålig!",
         url: "img/data1.png"
     },
     {
         name: "Dator 2",
         price: "22.222 kr",
-        description: "2 av 5 Sjärnor",
+        description: "Speldator med mus och tagentbord.",
         url: "img/data2.jpeg"
     },
     {
         name: "Dator 3",
         price: "33.333 kr",
-        description: "3 av 5 Sjärnor",
+        description: "Bra bärbardator för kontoret.",
         url: "img/data3.jpg"
     },
     {
         name: "Dator 4",
         price: "44.444 kr",
-        description: "4 av 5 Sjärnor",
+        description: "En bra speldator för den som vill ha en mobil dator.",
         url: "img/data4.jpg"
     }
 ];
